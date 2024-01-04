@@ -1,0 +1,153 @@
+/*======================================================================
+.* IMPORTS
+.*======================================================================*/
+
+/*======================================================================
+.* FONTS
+.*======================================================================*/
+
+/*======================================================================
+.* VARIABLES
+.*======================================================================*/
+
+/*======================================================================
+.* DEFAULT
+.*======================================================================*/
+
+/*======================================================================
+.* GLOBAL
+.*======================================================================*/
+
+req {
+    color: #dc3545;
+}
+
+req:before {
+    content: '*'
+}
+
+/*======================================================================
+.* OVERRIDES
+.*======================================================================*/
+
+/*======================================================================
+.* CUSTOM STYLE PAGES
+.*======================================================================*/
+
+/** COMMON **/
+
+/** LOGIN PAGE **/
+
+/** Programming Langauge, Programming Level Item  and Programming Level Item Criteria PAGE **/
+#spinner-overlay {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    background-color: none;
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.spinner-border {
+    width: 6rem;
+    height: 6rem;
+    border: 5px solid #ffffff;
+    border-top: 4px solid transparent;
+    border-radius: 50%;
+}
+
+.dark-mode .nav-tabs {
+    border-color: #3f6791;
+}
+
+.dark-mode .card-primary:not(.card-outline)>.card-header {
+    background-color: #3f6791;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.content-wrapper {
+    margin-top: 10px !important;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+
+
+/*======================================================================
+.* MEDIA (1200px 1150px 1024px 992px 991px 768px 736px 576px 421px 375px)
+.*======================================================================*/
+
+/** SP to DESKTOP Approach **/
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1150px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 991px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 736px) {}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 421px) {}
+
+@media (min-width: 375px) {}
+
+/** DESKTOP to SP Approach (Current UI) **/
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1150px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 736px) {}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 421px) {}
+
+@media (max-width: 375px) {}
+
+/*======================================================================
+.* ANIMATION
+.*======================================================================*/
